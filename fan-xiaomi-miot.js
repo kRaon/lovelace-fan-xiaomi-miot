@@ -155,8 +155,8 @@ class fanXiaomiMiotCard extends LitElement {
       },
 
       
-
-    this.btns = this.models['dmaker_fan_p5c'];
+    const model = 'dmaker_fan_p5c';
+    this.btns = this.models[model];
   
   }
 
